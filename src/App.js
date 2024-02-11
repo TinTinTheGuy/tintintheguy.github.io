@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
-
+// App.js
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './components/Navigation/nav';
+import Header from './components/header/header';
+import MainContent from './components/Body/Main';
+import AboutMe from './components/About/About';
+import Skill from './components/Skills/skills';
+import Footer from './components/footer/Footer';
+import ParticleBackground from './components/ParticlesBackground/Particle';
+import { initParticlesEngine } from '@tsparticles/react';
+import { loadFull } from 'tsparticles';
+import Contact from './components/Contact/contact';
+import Noti from './components/Notification/Noti';
 function App() {
+  const [init, setInit] = useState(false);
+
+  useEffect(() => {
+    if (init) {
+      return;
+    }
+
+    initParticlesEngine(async (engine) => {
+      await loadFull(engine);
+    }).then(() => {
+      setInit(true);
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App" style={{ position: 'relative', zIndex: 1 }}>
+        {init && <ParticleBackground />}
+        <Noti />
+        <Navbar />
+        <Header />
+        <MainContent />
+        <AboutMe />
+        <Skill />
+        <Contact />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
