@@ -28,6 +28,7 @@ const contactStyle = {
   color: '#fff',
   left: '50%',
   marginLeft: '-150px',
+  top :'2000px',
   
 };
 

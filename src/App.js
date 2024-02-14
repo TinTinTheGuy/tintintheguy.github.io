@@ -12,6 +12,7 @@ import { initParticlesEngine } from '@tsparticles/react';
 import { loadFull } from 'tsparticles';
 import Contact from './components/Contact/contact';
 import Noti from './components/Notification/Noti';
+import Timeline from './components/Timeline/Timeline';
 function App() {
   const [init, setInit] = useState(false);
 
@@ -28,6 +29,7 @@ function App() {
   }, []);
 
   return (
+    
     <Router>
       <div className="App" style={{ position: 'relative', zIndex: 1 }}>
         {init && <ParticleBackground />}
@@ -37,6 +39,7 @@ function App() {
         <MainContent />
         <AboutMe />
         <Skill />
+        <Timeline />
         <Contact />
         <Footer />
       </div>
