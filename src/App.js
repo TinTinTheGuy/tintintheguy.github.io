@@ -13,6 +13,7 @@ import { loadFull } from 'tsparticles';
 import Contact from './components/Contact/contact';
 import Noti from './components/Notification/Noti';
 import Timeline from './components/Timeline/Timeline';
+import SocialMedia from './components/SocialMedia/SocialMedia';
 function App() {
   const [init, setInit] = useState(false);
 
@@ -40,6 +41,7 @@ function App() {
         <AboutMe />
         <Skill />
         <Timeline />
+        <SocialMedia />
         <Contact />
         <Footer />
       </div>

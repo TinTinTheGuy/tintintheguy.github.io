@@ -19,7 +19,6 @@ const footerStyle = {
   position: 'fixed', // fixed positioning at the bottom
   width: '100%', // full width
   bottom: 0, // stick to the bottom
-  padding: '10px',
 };
 
 const paragraphStyle = {
