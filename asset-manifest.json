@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/webportfolio/static/css/main.053d8d3d.css",
-    "main.js": "/webportfolio/static/js/main.76d9c5e5.js",
-    "static/js/415.4d6acbeb.chunk.js": "/webportfolio/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/webportfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/leaf.png": "/webportfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/cloudcomputing.png": "/webportfolio/static/media/cloudcomputing.6b230d5ab857b519eca6.png",
-    "static/media/forensics.png": "/webportfolio/static/media/forensics.2513ef6354f558af2899.png",
-    "static/media/AnimalDating.png": "/webportfolio/static/media/AnimalDating.2c6249e6250c319f21f7.png",
-    "static/media/home-main.svg": "/webportfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
-    "static/media/about.png": "/webportfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/Resume.pdf": "/webportfolio/static/media/Resume.5810a9804262cb42d212.pdf",
-    "static/media/home-bg.jpg": "/webportfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/avatar.svg": "/webportfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
-    "static/media/pre.svg": "/webportfolio/static/media/pre.4410c5baaa673cc131da.svg",
-    "index.html": "/webportfolio/index.html",
-    "main.053d8d3d.css.map": "/webportfolio/static/css/main.053d8d3d.css.map",
-    "main.76d9c5e5.js.map": "/webportfolio/static/js/main.76d9c5e5.js.map",
-    "415.4d6acbeb.chunk.js.map": "/webportfolio/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/webportfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/WebPortfolio/static/css/main.3e84e7d4.css",
+    "main.js": "/WebPortfolio/static/js/main.95ce9b49.js",
+    "static/js/415.4d6acbeb.chunk.js": "/WebPortfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/WebPortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/leaf.png": "/WebPortfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/cloudcomputing.png": "/WebPortfolio/static/media/cloudcomputing.6b230d5ab857b519eca6.png",
+    "static/media/forensics.png": "/WebPortfolio/static/media/forensics.2513ef6354f558af2899.png",
+    "static/media/AnimalDating.png": "/WebPortfolio/static/media/AnimalDating.2c6249e6250c319f21f7.png",
+    "static/media/home-main.svg": "/WebPortfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/WebPortfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Resume.pdf": "/WebPortfolio/static/media/Resume.5810a9804262cb42d212.pdf",
+    "static/media/home-bg.jpg": "/WebPortfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/WebPortfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/WebPortfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/WebPortfolio/index.html",
+    "main.3e84e7d4.css.map": "/WebPortfolio/static/css/main.3e84e7d4.css.map",
+    "main.95ce9b49.js.map": "/WebPortfolio/static/js/main.95ce9b49.js.map",
+    "415.4d6acbeb.chunk.js.map": "/WebPortfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/WebPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.053d8d3d.css",
-    "static/js/main.76d9c5e5.js"
+    "static/css/main.3e84e7d4.css",
+    "static/js/main.95ce9b49.js"
   ]
 }
